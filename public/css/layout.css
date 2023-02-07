@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 1% 0 1% 1.6%;
+}
+
+.grid-container:first-child {
+  margin-left: 0;
+}
